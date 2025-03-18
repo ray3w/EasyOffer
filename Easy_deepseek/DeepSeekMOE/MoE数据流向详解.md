@@ -1,4 +1,4 @@
-# MoE机制详解：以DeepSeek-671B为例
+# MoE数据流向详解：以DeepSeek-671B为例
 
 ## 目录
 - [1. DeepSeek-671B配置参数](#1-deepseek-671b配置参数)
