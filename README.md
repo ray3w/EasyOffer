@@ -1,10 +1,5 @@
 # EasyLLM
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
-  <img src="https://img.shields.io/badge/language-Python-blue" alt="Language">
-  <img src="https://img.shields.io/github/stars/yourusername/EasyLLM?style=social" alt="Stars">
-</p>
 
 ## 📝 项目介绍
 
@@ -24,7 +19,7 @@ EasyLLM 是一个面向算法工程师和大模型爱好者的代码实现集合
 我们计划在不久的将来拓展以下内容：
 
 - **LLaMA 系列模型**的完整实现与解析
-- 其他流行大模型（如Gemma、Mistral、Mixtral等）的核心代码
+- 其他流行大模型（如Llama、Qwen等）的核心代码
 - 常见模型优化技术实现（如KV Cache、Quantization、LoRA等）
 - 面试常见的大模型相关手写代码题及详解
 
