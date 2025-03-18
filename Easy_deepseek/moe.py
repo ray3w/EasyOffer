@@ -14,6 +14,7 @@ from linear_layers import Linear
 from distributed import get_distributed_info
 from feedforward import MLP
 
+
 class Gate(nn.Module):
     """
     混合专家模型中的路由门控机制。
@@ -131,3 +132,4 @@ class MoE(nn.Module):
         if world_size > 1:  # 在分布式环境中聚合所有专家的输出
             dist.all_reduce(y)
         return (y + z).view(shape)  # 合并路由专家和共享专家的结果，恢复原始形状
+    
